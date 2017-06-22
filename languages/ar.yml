@@ -1,0 +1,38 @@
+index:
+    home: 'الرئيسية'
+    search: 'بحث'
+    archive: 'أرشيف'
+    category: 'فئة'
+    uncategorized: 'غير مصنف'
+    tag: 'وسم'
+nav:
+    next: 'التالي'
+    prev: 'السابق'
+    older: 'أقدم'
+    newer: 'أحدث'
+widget:
+    recents: 'حديث'
+    archives: 'أرشيف'
+    categories: 'فئات'
+    links: 'روابط'
+    tags: 'وسوم'
+    tag_cloud: 'سحابة الوسوم'
+article:
+    more: 'اقرأ المزيد'
+    comments: 'تعليقات'
+    share: 'شارك'
+    catalogue: 'فهرس'
+profile:
+    follow: 'تابع'
+    post: 'منشور'
+    tag: 'وسم'
+    posts: 'منشورات'
+    tags: 'وسوم'
+insight:
+    hint: 'اكتب شيئا ما...'
+    posts: 'منشورات'
+    pages: 'صفحات'
+    categories: 'فئات'
+    tags: 'وسوم'
+    untitled: '(غير معنون)'
+
