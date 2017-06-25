@@ -15,10 +15,10 @@ $header-block
     padding: ((header-height - logo-height)/2) 15px
 
 $header-block-left
-    float: left
+    float: right
 
 $header-block-right
-    float: right
+    float: left
 
 .header-inner
     height: 100%
@@ -27,6 +27,7 @@ $header-block-right
         @extend $header-block
         @extend $header-block-left
         display: inline-block
+        direction:rtl
         .logo
             margin-right: 5px
             display: inline-block
@@ -50,7 +51,7 @@ $header-block-right
         clearfix()
         margin: 0 15px
         li
-            float: left
+            float: right
             margin: 0 10px
             a
                 display: inline-block
@@ -128,6 +129,7 @@ $nav-link
     .search-form
         position: relative
         .search-form-input
+            direction: rtl
             width: 100%
             padding: 0 30px 0 15px
             line-height: logo-height
@@ -138,7 +140,7 @@ $nav-link
                 -webkit-appearance: none
         .search-form-submit
             top: 50%
-            right: 15px
+            left: 15px
             border: none
             cursor: pointer
             margin-top: -7px
