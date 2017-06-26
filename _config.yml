@@ -30,6 +30,9 @@ customize:
         twitter: https://twitter.com/NotAFellaga
         facebook: https://facebook.com/NotAFellaga
     social_link_tooltip: true # enable the social link tooltip, options: true, false
+    #change made for yara3i.
+    fonts:
+        url: fonts
 
 # Widgets
 widgets:

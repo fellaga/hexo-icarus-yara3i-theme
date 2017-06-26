@@ -1,9 +1,14 @@
+ @font-face
+   font-family 'Noto Kufi Arabic'
+   font-style normal
+   src url(fonts/NotoKufiArabic-Regular.ttf) format('truetype')
 @import "nib"
 @import "_variables"
 @import "_util/mixin"
 @import "_util/grid"
 
 global-reset()
+
 
 input, button
     margin: 0
@@ -89,6 +94,9 @@ code
 @import "_partial/sidebar"
 @import "_partial/insight"
 @import "_highlight/index"
+
+.highlight
+    direction: ltr !important
 
 if sidebar is left
     #main
