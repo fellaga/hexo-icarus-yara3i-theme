@@ -17,7 +17,7 @@ customize:
         enabled: false # Whether to show profile bar
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
+        author: Yara3i
         author_title: Media production
         location: Algiers, Algeria
         follow: https://github.com/fellaga
@@ -73,8 +73,8 @@ share: addtoany # options: jiathis, bdshare, addtoany, default
 plugins:
     lightgallery: true # options: true, false
     justifiedgallery: true # options: true, false
-    google_analytics: # enter the tracking ID for your Google Analytics
-    google_site_verification: # enter Google site verification code
+    google_analytics: UA-99603932-1 # enter the tracking ID for your Google Analytics
+    google_site_verification: qc7xE6CyZfPklVvzSAk8b2afm4RP0Pf8mNtnR1lU7JU # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
     mathjax: false # options: true, false
 
