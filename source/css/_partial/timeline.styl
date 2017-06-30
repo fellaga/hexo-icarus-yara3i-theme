@@ -1,28 +1,29 @@
 .timeline-wrap
-    margin: 40px 20px 40px 40px
-    border-left: 3px solid color-border
+    direction: rtl
+    margin: 40px 40px 40px 20px
+    border-right: 3px solid color-border
     @media mq-mini
-        margin: 40px 20px 40px 30px
+        margin: 40px 30px 40px 20px
     @media mq-mobile
-        margin: 40px 20px 40px 30px
+        margin: 40px 30px 40px 20px
 
 .timeline-row
     clearfix()
     margin: 20px 0
     .node,
     .title
-        float: left
+        float: right
     .node
         width: 12px
         color: white
         height: 12px
         border-radius: 50%
-        margin: 11px 0 0 -8px
+        margin: 11px -8px 0 0
         display: inline-block
         background-color: color-link
     .content
         @extend $block
-        margin-left: 25px
+        margin-right: 25px
         position: relative
         &:after,
         &:before
@@ -31,14 +32,14 @@
             display: inline-block
         &:after
             top: 10px
-            left: -14px
+            right: -14px
             border: 7px solid transparent
-            border-right-color: white
+            border-left-color: white
         &:before
             top: 9px
-            left: -16px
+            right: -16px
             border: 8px solid transparent
-            border-right-color: rgba(0, 0, 0, 0.05)
+            border-left-color: rgba(0, 0, 0, 0.05)
         h1,
         .article-meta
             padding: 10px
@@ -57,9 +58,9 @@
         width: 14px
         height: 14px
         font-size: 14px
-        margin: 0 0 0 -17px
+        margin: 0 -17px 0 0
         padding: 6px 8px 10px
     .title
         font-size: 18px
-        margin-left: 15px
+        margin-right: 15px
         line-height: 30px
