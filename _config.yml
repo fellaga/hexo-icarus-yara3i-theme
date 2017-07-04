@@ -24,7 +24,7 @@ customize:
     highlight: monokai
     sidebar: left # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/images/logo.png # path to favicon
     social_links:
         github: https://github.com/fellaga
         twitter: https://twitter.com/NotAFellaga
@@ -37,11 +37,11 @@ customize:
 # Widgets
 widgets:
     - recent_posts
-    - category
-    - archive
-    - tag
-    - tagcloud
-    - links
+    #- category
+    #- archive
+    #- tag
+    #- tagcloud
+    #- links
 
 # Search
 search:
